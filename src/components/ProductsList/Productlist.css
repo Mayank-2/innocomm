@@ -1,0 +1,26 @@
+.product-list-image{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px 0 0px 10px;
+}
+.product-list-image img{
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+.product-list-description{
+    font-size: 1rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+
+}
